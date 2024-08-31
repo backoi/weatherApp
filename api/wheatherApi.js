@@ -21,7 +21,8 @@ export const fetchForecast=async (city)=>{
     }
     try{
         const response= await axios(option)
-        console.log('Du lieu thoi tiet tra ve',response.data)
+        
+        //console.log('Du lieu thoi tiet tra ve',response.data)
         return response.data
     }
     catch(error){
